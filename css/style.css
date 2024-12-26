@@ -1,0 +1,95 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Panel Header Styling */
+  .panel {
+    padding: 15px;
+  }
+  
+  .panel-heading {
+    padding: 10px;
+    background-color: #0e4c92;
+  }
+  
+  .panel img {
+    max-height: 80px;
+  }
+  
+  .panel-footer {
+    padding: 15px;
+    font-size: 14px;
+  }
+  
+  /* Container Styling */
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+  }
+  
+  /* Form Header */
+  h2 {
+    color: #0e4c92;
+    font-weight: bold;
+  }
+  
+  /* Form Inputs */
+  .form-control,
+  .form-select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-control:focus,
+  .form-select:focus {
+    border-color: #0e4c92;
+    box-shadow: 0 0 5px rgba(14, 76, 146, 0.5);
+  }
+  
+  /* Labels */
+  .form-label {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #0e4c92;
+    border-color: #0e4c92;
+  }
+  
+  .btn-primary:hover {
+    background-color: #083766;
+    border-color: #083766;
+  }
+  
+  /* Footer Styling */
+  .panel-footer {
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px 20px;
+    }
+    .panel-heading img {
+      max-height: 60px;
+    }
+  }
+  
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #000; 
+}
