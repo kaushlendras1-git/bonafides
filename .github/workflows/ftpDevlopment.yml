@@ -17,7 +17,7 @@ jobs:
       - name: Setup FTP deployment
         uses: SamKirkland/FTP-Deploy-Action@4.3.1
         with:
-          server: ${{ secrets.SERVER }}
+          server: 192.168.2.11
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           protocol: ftps
