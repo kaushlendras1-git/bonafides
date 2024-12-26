@@ -22,4 +22,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           protocol: ftps
           local-dir: ./ # Specify the directory to upload (default is the repository root)
-          server-dir: /var/www/html # Specify the target folder on the FTP server
+          server-dir: /var/www/html/ # Add a trailing slash to indicate it's a directory
